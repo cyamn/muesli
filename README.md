@@ -18,6 +18,14 @@ execute the following:
     cd muesli
     docker-compose up
 
+Default values are:
+* Müsli url: http://localhost:8080
+* Mail catcher: http://127.0.0.1:8082/
+* muesliDB (Postgres)
+  * url: localhost:5433
+  * user: muesli-admin
+  * password: mueslipw
+
 If this doesn't work, you could be missing docker or docker-compose. Please visit
 the [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/)
 installation guides and try the above commands again.
